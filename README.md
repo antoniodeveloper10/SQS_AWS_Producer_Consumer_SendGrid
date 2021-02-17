@@ -23,7 +23,7 @@ Depois de criada a conta e posteriormente a fila na AWS é preciso passar valore
 ```
 
 ### Consumer 
-no arquivo appsetings.json substituir o conteudo das variaveis
+no arquivo appsettings.json substituir o conteudo das variaveis
 ```
   "SendGrid": {
     "KEY": "aqui_vai_a_KEY_SendGrid"
