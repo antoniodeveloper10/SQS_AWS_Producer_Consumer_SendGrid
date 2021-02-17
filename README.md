@@ -39,8 +39,4 @@ No arquivo appsettings.json substituir o conteudo das variaveis
 
 ```
 
-Para acessar o painel de Admin da API
-```sh
-digite http://127.0.0.1:8000/admin
-```
-**E entre com os dados de usuário setados no deployment.yaml da api**
+
