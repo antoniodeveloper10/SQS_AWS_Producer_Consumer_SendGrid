@@ -6,7 +6,7 @@ Projeto contendo um Produtor de envio de emails para a SQS da AWS e um Consumido
 
  * [SendGrid](https://sendgrid.com/)
  * [SQS - AWS](https://docs.aws.amazon.com/pt_br/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-setting-up.html/) 
- * [Nuget - Ambos Projetos](https://github.com/aws/aws-sdk-net/)
+ * [Nuget AWSSDK.SQS - Ambos Projetos](https://www.nuget.org/packages/AWSSDK.SQS/)
  
  
 ### Criação
