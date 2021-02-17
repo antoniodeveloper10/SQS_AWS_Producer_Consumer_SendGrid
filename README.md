@@ -6,10 +6,11 @@ Projeto contendo um Produtor de envio de emails para a SQS da AWS  e um Consumid
 
  * [SendGrid](https://sendgrid.com/)
  * [SQS - AWS](https://docs.aws.amazon.com/pt_br/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-setting-up.html/) 
+ * [Nuget - Ambos Projetos] https://github.com/aws/aws-sdk-net/
  
  
 ### Criação
-Depois de criada a conta e posteriormente a fila na AWS é preciso passar valores das credencais do usuario para acesso ao cliente SQS e o nome da fila criada.
+Depois de criada a conta e posteriormente a fila na AWS é preciso passar valores das credencais do usuario e o nome da fila para permitir o acesso ao cliente SQS 
 
 ### Producer
 ```
