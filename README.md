@@ -9,9 +9,20 @@ Projeto contendo um Produtor de envio de emails para a SQS da AWS  e um Consumid
  
  
 ### Criação
-Depois de criada a conta e posteriormente a fila na AWS é preciso passar valores das credencais do usuario para acesso ao cliente SQS e o nome da fila criada
+Depois de criada a conta e posteriormente a fila na AWS é preciso passar valores das credencais do usuario para acesso ao cliente SQS e o nome da fila criada.
 
 ### Producer
+```
+           var _awsAccessKeyId = "aqui_vai_a_AccessKeyId";
+            var _awsSecretAccessKey = "aqui_vai_a_SecretAccessKey";
+            var _nameQueue = "nome_da_fila_na_AWS";
+            var _from = "Email_do_remetente@email.com";
+            var _recipient = "Email_do_destinatario@email.com";
+            var _subject = "assunto do email";
+            var _content = "conteudo do email";
+```
+
+### Consumer
 ```
            var _awsAccessKeyId = "aqui_vai_a_AccessKeyId";
             var _awsSecretAccessKey = "aqui_vai_a_SecretAccessKey";
