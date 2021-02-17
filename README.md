@@ -13,7 +13,7 @@ Depois de criada a conta e posteriormente a fila na AWS é preciso passar valore
 
 ### Producer
 ```
-           var _awsAccessKeyId = "aqui_vai_a_AccessKeyId";
+            var _awsAccessKeyId = "aqui_vai_a_AccessKeyId";
             var _awsSecretAccessKey = "aqui_vai_a_SecretAccessKey";
             var _nameQueue = "nome_da_fila_na_AWS";
             var _from = "Email_do_remetente@email.com";
@@ -22,15 +22,20 @@ Depois de criada a conta e posteriormente a fila na AWS é preciso passar valore
             var _content = "conteudo do email";
 ```
 
-### Consumer
+### Consumer 
+no arquivo appsetings.json substituir o conteudo das variaveis
 ```
-           var _awsAccessKeyId = "aqui_vai_a_AccessKeyId";
-            var _awsSecretAccessKey = "aqui_vai_a_SecretAccessKey";
-            var _nameQueue = "nome_da_fila_na_AWS";
-            var _from = "Email_do_remetente@email.com";
-            var _recipient = "Email_do_destinatario@email.com";
-            var _subject = "assunto do email";
-            var _content = "conteudo do email";
+            "SendGrid": {
+    "KEY": "aqui_vai_a_KEY_SendGrid"
+  },
+
+  "AWS": {
+    "awsAccessKeyId": "aqui_vai_a_AccessKeyId", // 
+    "awsSecretAccessKey": "aqui_vai_SecretAccessKey", 
+    "QueueUrl": "nome_da_fila_na_AWS" // 
+  }
+}
+
 ```
 
 
