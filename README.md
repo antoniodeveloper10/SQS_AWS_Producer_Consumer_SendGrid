@@ -1,5 +1,5 @@
 # SQS_AWS_Producer_Consumer_SendGrid
-Projeto contendo um Produtor de envio de emails para a SQS da AWS e um Consumidor em formato de JOB que faz as leituras periodicas da fila em buscas de novas mensagens e faz o envio de emails usando uma integração com o SendGrid e posteriormente ao envio com sucesso, este JOB apaga a mensagem da fila para que a mesma não volte a ser enviada
+Projeto contendo um Produtor de envio de emails para a SQS da AWS e um Consumidor em formato de JOB que faz as leituras periodicas da fila em buscas de novas mensagens e fazendo o envio de emails atraves de integração com o SendGrid e posteriormente ao envio, com sucesso, o JOB apaga a mensagem da fila para que a mesma não volte a ser enviada
 
 
 ## Requisitos
